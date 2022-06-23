@@ -1,9 +1,8 @@
 name: MEC_RL
 channels:
-  - conda-forge
-  - defaults
+- conda-forge
 dependencies:
-  - pytorch
-  - ipykernel
-  - matplotlib
-prefix: /home/richardf/miniconda3/envs/MEC_RL
+- pytorch=1.11.0
+- ipykernel=6.12.1
+- pip=22.0.4
+- matplotlib=3.5.1
